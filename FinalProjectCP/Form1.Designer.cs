@@ -49,6 +49,9 @@ namespace FinalProjectCP
             this.cbxAdoboCombo = new System.Windows.Forms.ComboBox();
             this.pctCombo3 = new System.Windows.Forms.PictureBox();
             this.pctCombo2 = new System.Windows.Forms.PictureBox();
+            this.adbRice = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -66,7 +69,13 @@ namespace FinalProjectCP
             this.pctAlaCarte3 = new System.Windows.Forms.PictureBox();
             this.pctAlaCarte2 = new System.Windows.Forms.PictureBox();
             this.pctAlaCarte1 = new System.Windows.Forms.PictureBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -83,6 +92,8 @@ namespace FinalProjectCP
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
@@ -94,6 +105,7 @@ namespace FinalProjectCP
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label47 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
@@ -104,18 +116,6 @@ namespace FinalProjectCP
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.adbRice = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
             this.hdrPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -150,7 +150,6 @@ namespace FinalProjectCP
             // tileLbl
             // 
             this.tileLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tileLbl.AutoSize = true;
             this.tileLbl.Font = new System.Drawing.Font("Roboto Black", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tileLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.tileLbl.Location = new System.Drawing.Point(294, 18);
@@ -172,7 +171,6 @@ namespace FinalProjectCP
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.label1.Location = new System.Drawing.Point(147, 6);
@@ -211,7 +209,6 @@ namespace FinalProjectCP
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(14, 359);
             this.label12.Name = "label12";
@@ -221,7 +218,6 @@ namespace FinalProjectCP
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(14, 339);
             this.label13.Name = "label13";
@@ -231,7 +227,6 @@ namespace FinalProjectCP
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(85, 337);
             this.label14.Name = "label14";
@@ -256,7 +251,6 @@ namespace FinalProjectCP
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(214, 195);
             this.label9.Name = "label9";
@@ -266,7 +260,6 @@ namespace FinalProjectCP
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(214, 175);
             this.label10.Name = "label10";
@@ -276,7 +269,6 @@ namespace FinalProjectCP
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(285, 173);
             this.label11.Name = "label11";
@@ -301,7 +293,6 @@ namespace FinalProjectCP
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(17, 194);
             this.label8.Name = "label8";
@@ -311,7 +302,6 @@ namespace FinalProjectCP
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(17, 174);
             this.label7.Name = "label7";
@@ -321,7 +311,6 @@ namespace FinalProjectCP
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(88, 172);
             this.label6.Name = "label6";
@@ -362,6 +351,43 @@ namespace FinalProjectCP
             this.pctCombo2.TabIndex = 65;
             this.pctCombo2.TabStop = false;
             // 
+            // adbRice
+            // 
+            this.adbRice.BackColor = System.Drawing.Color.White;
+            this.adbRice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.adbRice.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adbRice.ForeColor = System.Drawing.Color.Black;
+            this.adbRice.Location = new System.Drawing.Point(53, 25);
+            this.adbRice.Name = "adbRice";
+            this.adbRice.Size = new System.Drawing.Size(112, 17);
+            this.adbRice.TabIndex = 85;
+            this.adbRice.Text = "Adobo w/ Rice";
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.White;
+            this.label48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label48.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.Black;
+            this.label48.Location = new System.Drawing.Point(248, 25);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(130, 17);
+            this.label48.TabIndex = 86;
+            this.label48.Text = "Sinigang w/ Rice";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.White;
+            this.label49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label49.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.Black;
+            this.label49.Location = new System.Drawing.Point(47, 225);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(131, 17);
+            this.label49.TabIndex = 87;
+            this.label49.Text = "Pinakbet w/ Rice";
+            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -391,7 +417,6 @@ namespace FinalProjectCP
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(16, 360);
             this.label21.Name = "label21";
@@ -401,7 +426,6 @@ namespace FinalProjectCP
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(16, 340);
             this.label22.Name = "label22";
@@ -411,7 +435,6 @@ namespace FinalProjectCP
             // 
             // label23
             // 
-            this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(87, 338);
             this.label23.Name = "label23";
@@ -436,7 +459,6 @@ namespace FinalProjectCP
             // 
             // label18
             // 
-            this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(216, 193);
             this.label18.Name = "label18";
@@ -446,7 +468,6 @@ namespace FinalProjectCP
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(216, 173);
             this.label19.Name = "label19";
@@ -456,7 +477,6 @@ namespace FinalProjectCP
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(287, 171);
             this.label20.Name = "label20";
@@ -481,7 +501,6 @@ namespace FinalProjectCP
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(17, 193);
             this.label15.Name = "label15";
@@ -491,7 +510,6 @@ namespace FinalProjectCP
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(17, 173);
             this.label16.Name = "label16";
@@ -501,7 +519,6 @@ namespace FinalProjectCP
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(88, 171);
             this.label17.Name = "label17";
@@ -527,7 +544,6 @@ namespace FinalProjectCP
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.label2.Location = new System.Drawing.Point(166, 6);
@@ -564,6 +580,42 @@ namespace FinalProjectCP
             this.pctAlaCarte1.TabIndex = 67;
             this.pctAlaCarte1.TabStop = false;
             // 
+            // label50
+            // 
+            this.label50.BackColor = System.Drawing.Color.White;
+            this.label50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label50.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.Black;
+            this.label50.Location = new System.Drawing.Point(80, 25);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(54, 17);
+            this.label50.TabIndex = 89;
+            this.label50.Text = "Adobo";
+            // 
+            // label51
+            // 
+            this.label51.BackColor = System.Drawing.Color.White;
+            this.label51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label51.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.Black;
+            this.label51.Location = new System.Drawing.Point(270, 25);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(72, 17);
+            this.label51.TabIndex = 90;
+            this.label51.Text = "Sinigang";
+            // 
+            // label52
+            // 
+            this.label52.BackColor = System.Drawing.Color.White;
+            this.label52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label52.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.Black;
+            this.label52.Location = new System.Drawing.Point(71, 225);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(73, 17);
+            this.label52.TabIndex = 91;
+            this.label52.Text = "Pinakbet";
+            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -590,9 +642,35 @@ namespace FinalProjectCP
             this.panel3.Size = new System.Drawing.Size(417, 174);
             this.panel3.TabIndex = 68;
             // 
+            // label44
+            // 
+            this.label44.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(19, 131);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(64, 15);
+            this.label44.TabIndex = 90;
+            this.label44.Text = "Iced Tea";
+            // 
+            // label43
+            // 
+            this.label43.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(28, 78);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(40, 15);
+            this.label43.TabIndex = 89;
+            this.label43.Text = "Coke";
+            // 
+            // label42
+            // 
+            this.label42.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(28, 28);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(46, 15);
+            this.label42.TabIndex = 85;
+            this.label42.Text = "Water";
+            // 
             // label30
             // 
-            this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(143, 130);
             this.label30.Name = "label30";
@@ -602,7 +680,6 @@ namespace FinalProjectCP
             // 
             // label31
             // 
-            this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(102, 130);
             this.label31.Name = "label31";
@@ -612,7 +689,6 @@ namespace FinalProjectCP
             // 
             // label32
             // 
-            this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(178, 130);
             this.label32.Name = "label32";
@@ -637,7 +713,6 @@ namespace FinalProjectCP
             // 
             // label27
             // 
-            this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(143, 78);
             this.label27.Name = "label27";
@@ -647,7 +722,6 @@ namespace FinalProjectCP
             // 
             // label28
             // 
-            this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(102, 78);
             this.label28.Name = "label28";
@@ -657,7 +731,6 @@ namespace FinalProjectCP
             // 
             // label29
             // 
-            this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(178, 78);
             this.label29.Name = "label29";
@@ -682,7 +755,6 @@ namespace FinalProjectCP
             // 
             // label24
             // 
-            this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(143, 30);
             this.label24.Name = "label24";
@@ -692,7 +764,6 @@ namespace FinalProjectCP
             // 
             // label25
             // 
-            this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(102, 30);
             this.label25.Name = "label25";
@@ -702,7 +773,6 @@ namespace FinalProjectCP
             // 
             // label26
             // 
-            this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(178, 30);
             this.label26.Name = "label26";
@@ -772,9 +842,26 @@ namespace FinalProjectCP
             this.panel4.Size = new System.Drawing.Size(417, 100);
             this.panel4.TabIndex = 69;
             // 
+            // label46
+            // 
+            this.label46.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(27, 62);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(72, 15);
+            this.label46.TabIndex = 90;
+            this.label46.Text = "Halo-Halo";
+            // 
+            // label45
+            // 
+            this.label45.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(26, 24);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(75, 15);
+            this.label45.TabIndex = 89;
+            this.label45.Text = "Ice Cream";
+            // 
             // label36
             // 
-            this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(170, 62);
             this.label36.Name = "label36";
@@ -784,7 +871,6 @@ namespace FinalProjectCP
             // 
             // label37
             // 
-            this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(129, 62);
             this.label37.Name = "label37";
@@ -794,7 +880,6 @@ namespace FinalProjectCP
             // 
             // label38
             // 
-            this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(205, 62);
             this.label38.Name = "label38";
@@ -819,7 +904,6 @@ namespace FinalProjectCP
             // 
             // label33
             // 
-            this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(170, 23);
             this.label33.Name = "label33";
@@ -829,7 +913,6 @@ namespace FinalProjectCP
             // 
             // label34
             // 
-            this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(129, 23);
             this.label34.Name = "label34";
@@ -839,7 +922,6 @@ namespace FinalProjectCP
             // 
             // label35
             // 
-            this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(205, 23);
             this.label35.Name = "label35";
@@ -894,9 +976,17 @@ namespace FinalProjectCP
             this.panel5.Size = new System.Drawing.Size(417, 68);
             this.panel5.TabIndex = 70;
             // 
+            // label47
+            // 
+            this.label47.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(45, 24);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(36, 15);
+            this.label47.TabIndex = 86;
+            this.label47.Text = "Rice";
+            // 
             // label39
             // 
-            this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(170, 25);
             this.label39.Name = "label39";
@@ -906,7 +996,6 @@ namespace FinalProjectCP
             // 
             // label40
             // 
-            this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(129, 25);
             this.label40.Name = "label40";
@@ -916,7 +1005,6 @@ namespace FinalProjectCP
             // 
             // label41
             // 
-            this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(205, 25);
             this.label41.Name = "label41";
@@ -956,7 +1044,6 @@ namespace FinalProjectCP
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Roboto Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.label3.Location = new System.Drawing.Point(177, 493);
@@ -969,7 +1056,6 @@ namespace FinalProjectCP
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Roboto Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.label4.Location = new System.Drawing.Point(606, 495);
@@ -982,7 +1068,6 @@ namespace FinalProjectCP
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Roboto Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
             this.label5.Location = new System.Drawing.Point(606, 599);
@@ -1011,148 +1096,9 @@ namespace FinalProjectCP
             this.panel6.Size = new System.Drawing.Size(866, 3);
             this.panel6.TabIndex = 74;
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(28, 28);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(46, 15);
-            this.label42.TabIndex = 85;
-            this.label42.Text = "Water";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(28, 78);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(40, 15);
-            this.label43.TabIndex = 89;
-            this.label43.Text = "Coke";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(19, 131);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(64, 15);
-            this.label44.TabIndex = 90;
-            this.label44.Text = "Iced Tea";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(26, 24);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(75, 15);
-            this.label45.TabIndex = 89;
-            this.label45.Text = "Ice Cream";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(27, 62);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(72, 15);
-            this.label46.TabIndex = 90;
-            this.label46.Text = "Halo-Halo";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(45, 24);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(36, 15);
-            this.label47.TabIndex = 86;
-            this.label47.Text = "Rice";
-            // 
-            // adbRice
-            // 
-            this.adbRice.AutoSize = true;
-            this.adbRice.BackColor = System.Drawing.Color.White;
-            this.adbRice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adbRice.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adbRice.ForeColor = System.Drawing.Color.Black;
-            this.adbRice.Location = new System.Drawing.Point(53, 25);
-            this.adbRice.Name = "adbRice";
-            this.adbRice.Size = new System.Drawing.Size(112, 17);
-            this.adbRice.TabIndex = 85;
-            this.adbRice.Text = "Adobo w/ Rice";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.BackColor = System.Drawing.Color.White;
-            this.label48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label48.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.Black;
-            this.label48.Location = new System.Drawing.Point(248, 25);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(130, 17);
-            this.label48.TabIndex = 86;
-            this.label48.Text = "Sinigang w/ Rice";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.White;
-            this.label49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label49.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.Black;
-            this.label49.Location = new System.Drawing.Point(47, 225);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(131, 17);
-            this.label49.TabIndex = 87;
-            this.label49.Text = "Pinakbet w/ Rice";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.BackColor = System.Drawing.Color.White;
-            this.label50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label50.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.Black;
-            this.label50.Location = new System.Drawing.Point(80, 25);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(54, 17);
-            this.label50.TabIndex = 89;
-            this.label50.Text = "Adobo";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.BackColor = System.Drawing.Color.White;
-            this.label51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label51.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.Black;
-            this.label51.Location = new System.Drawing.Point(270, 25);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(72, 17);
-            this.label51.TabIndex = 90;
-            this.label51.Text = "Sinigang";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.BackColor = System.Drawing.Color.White;
-            this.label52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label52.Font = new System.Drawing.Font("Roboto Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.Black;
-            this.label52.Location = new System.Drawing.Point(71, 225);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(73, 17);
-            this.label52.TabIndex = 91;
-            this.label52.Text = "Pinakbet";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(866, 753);
@@ -1172,32 +1118,27 @@ namespace FinalProjectCP
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.hdrPanel.ResumeLayout(false);
-            this.hdrPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo2)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctAlaCarte3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctAlaCarte2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctAlaCarte1)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
