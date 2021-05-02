@@ -17,9 +17,17 @@ namespace FinalProjectCP
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
+        //Classess
+        public Form1 frm1 = new Form1();
+        
+        
+        //Methods
 
+        private void ClickToOrderBtn_Click(object sender, EventArgs e)
+        {
+            frm1.Show();
+            this.Hide();
+            
         }
     }
 }
