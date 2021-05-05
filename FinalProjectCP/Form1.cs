@@ -16,7 +16,8 @@ namespace FinalProjectCP
         public Form1()
         {
             InitializeComponent();
-         
+            DiscountType.Text = "None";
+
         }
 
         //Variables
@@ -26,6 +27,7 @@ namespace FinalProjectCP
         public double priceSum;
         public double discount;
         public double vat;
+        public string nameText;
 
         private int counter;
              
@@ -34,21 +36,43 @@ namespace FinalProjectCP
         public Form3 frm3 = new Form3();
 
         //Functions
+        private void DisplayItems()
+        {
+            //clear variables to avoid duplicates
+            NameTB.Clear();
+            priceTB.Clear();
+            QtyTB.Clear();
+            counter = 0;
+
+            foreach (string nam in name)
+            {
+                counter++;
+            }
+
+            for (int i = 0; i < counter; i++)
+            {
+                
+                NameTB.Text += name[i].ToString() + "\n";
+                QtyTB.Text += listedQuantity[i].ToString() + "\n";
+                priceTB.Text += listedPrice[i].ToString() + "\n";
+            }
+
+        }
 
         //Discount Type
         private double TypeOfDiscount()
         {
             //declare variables
             string value = DiscountType.Text.ToString();
-            double discountValue;
+            double discountValue = 0;
 
             //Compare Discount Type
             if (value == "Senior")
                 discountValue = .10;
             else if (value == "Student")
                 discountValue = .20;
-            else
-                discountValue = 1;
+            else if (value == "None")
+                discountValue = 0;
 
             //return value
             return discountValue;
@@ -57,7 +81,7 @@ namespace FinalProjectCP
         //Compute Total price w/o discounts
         private double SumOfPrice()
         {
-            int qty = 0;
+            int qty = -1;
             double price = 0;
 
             foreach (int num in listedQuantity)
@@ -65,7 +89,7 @@ namespace FinalProjectCP
                 qty++;
             }
 
-            for (int i = 0; i < qty; i++)
+            for (int i = 0; i <= qty; i++)
             {
                 price += Convert.ToDouble(listedPrice[i]);
             }
@@ -96,7 +120,11 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            AdoboComboAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
+            
         }
 
 
@@ -118,7 +146,10 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            SinigangComboAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void PakbetComboAdd_Click(object sender, EventArgs e)
@@ -139,13 +170,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            PakbetComboAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
         //Ala Carte Meals
         private void AdoboAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Adobo");
+            name.Add("Adobo\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(AdoboQty.Value);
@@ -160,13 +194,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            AdoboAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void SinigangAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Sinigang");
+            name.Add("Sinigang\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(SinigangQty.Value);
@@ -181,13 +218,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            SinigangAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void PakbetAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Pinakbet");
+            name.Add("Pinakbet\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(PakbetQty.Value);
@@ -202,14 +242,17 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            PakbetAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         //Beverages
         private void WaterAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Water");
+            name.Add("Water\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(WaterQty.Value);
@@ -224,13 +267,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            WaterAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void CokeAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Coke");
+            name.Add("Coke\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(CokeQty.Value);
@@ -245,13 +291,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            CokeAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void IcedTeaAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Iced Tea");
+            name.Add("Iced Tea\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(IcedTeaQty.Value);
@@ -266,14 +315,17 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            IcedTeaAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         //Desserts
         private void LecheFlanAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Leche Flan");
+            name.Add("Leche Flan\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(LecheFlanQty.Value);
@@ -288,13 +340,16 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            LecheFlanAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         private void HaloHaloAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Halo-Halo");
+            name.Add("Halo-Halo\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(HaloHaloQty.Value);
@@ -309,14 +364,17 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            HaloHaloAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         //Add-Ons
         private void RiceAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Extra Rice");
+            name.Add("Extra Rice\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(RiceQty.Value);
@@ -331,7 +389,10 @@ namespace FinalProjectCP
 
             //add item price to list
             listedPrice.Add(initialPrice);
-            RiceAdd.Enabled = false;
+
+            //List to tray
+            DisplayItems();
+
         }
 
         //Confirm order
@@ -343,32 +404,87 @@ namespace FinalProjectCP
 
             //Compute Discounts
             vat = priceSum * .12;
-            double totalPrice = (priceSum - (priceSum * discount)) + vat;
+            double discountedPrice = (priceSum * discount);
+            double totalPrice = (priceSum - discountedPrice ) + vat;
 
 
             //Display receipt
 
             //declare total index inside the array
+            
+            counter = -1;
+
             foreach (int num in listedQuantity)
                 counter++;
 
-            //loop display text
-            for (int i = 0; i < counter; i++)
+            if (counter < 0)
             {
-                frm3.ItemsTB.Text += name[i].ToString();
-                frm3.ItemsTB.Text += "\n";
-                frm3.QuantityTB.Text += listedQuantity[i].ToString();
-                frm3.QuantityTB.Text += "\n";
-                frm3.PriceTB.Text += listedPrice[i].ToString();
-                frm3.PriceTB.Text += "\n";
+                MessageBox.Show("Warning: You haven't ordered anything yet");
+            }
+            else
+            {
+                
+                
+
+                //display receipt
+                frm3.ReceiptTB.Text += String.Format("======================================\n" +
+                                                     "||                           Comfort Kitchen                         ||\n" +
+                                                     "======================================\n" +
+                                                     "{0,-10}\t\t{1,-5}\t\t{2,5}\n", "Name", "Quantity", "Price");
+
+                for (int i = 0; i <= counter; i++)
+                {
+                    nameText = String.Format("{0,-10}\t\t{1,-5}\t\t{2,5}\n", name[i].ToString(), listedQuantity[i].ToString(), "₱"+listedPrice[i].ToString());
+
+                    frm3.ReceiptTB.Text += nameText; 
+                }
+
+                frm3.ReceiptTB.Text += "======================================\n";
+                frm3.ReceiptTB.Text += String.Format("{0,-10}\t\t\t{1,17}\n", "Type of Discount:", DiscountType.Text.ToString());
+                frm3.ReceiptTB.Text += String.Format("{0,-10}\t\t\t\t{1,17}\n", "Total VAT", "₱" + vat);
+                frm3.ReceiptTB.Text += String.Format("{0,-10}\t\t\t\t{1,17}\n", "Total Price", "₱" + totalPrice);
+
+                this.Hide();
+                frm3.Show();
+            }
+        }
+
+        private void Return_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 frm2 = new Form2();
+            frm2.Show();
+            this.Close();
+        }
+
+        private void rmvItem_Click(object sender, EventArgs e)
+        {
+            //Declare Variables
+            int idNum = Convert.ToInt32(IDnumber.Value);
+
+            //Error Catch Method when value exceeds array size
+            counter = -1;
+
+            foreach (string nam in name)
+            {
+                counter++;
             }
 
-            frm3.VatTB.Text = "₱" + vat.ToString();
-            frm3.TotalPriceTB.Text = "₱" + totalPrice.ToString();
+            if (idNum > counter)
+            {
+                MessageBox.Show("Error: ID Number does not exist");
+            }
 
-            frm3.Show();
-            this.Hide();
+            else
+            {
+                //remove indicated value inside the array
+                name.RemoveAt(idNum);
+                listedPrice.RemoveAt(idNum);
+                listedQuantity.RemoveAt(idNum);
 
+                //display all items in their assigned textboxes
+                DisplayItems();
+            }
         }
     }
 }

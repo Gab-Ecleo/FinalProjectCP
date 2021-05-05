@@ -8,19 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace FinalProjectCP
 {
-    public partial class Form3 : Form
+    public partial class Help : Form
     {
-        public Form3()
+        public Help()
         {
             InitializeComponent();
         }
 
-       
-
-        private void Return_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
             Form2 frm2 = new Form2();

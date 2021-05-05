@@ -130,6 +130,19 @@ namespace FinalProjectCP
             this.panel6 = new System.Windows.Forms.Panel();
             this.label53 = new System.Windows.Forms.Label();
             this.DiscountType = new System.Windows.Forms.ComboBox();
+            this.Return = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.NameTB = new System.Windows.Forms.RichTextBox();
+            this.QtyTB = new System.Windows.Forms.RichTextBox();
+            this.priceTB = new System.Windows.Forms.RichTextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.rmvItem = new System.Windows.Forms.Button();
+            this.label59 = new System.Windows.Forms.Label();
+            this.IDnumber = new System.Windows.Forms.NumericUpDown();
             this.hdrPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -160,17 +173,18 @@ namespace FinalProjectCP
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RiceQty)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IDnumber)).BeginInit();
             this.SuspendLayout();
             // 
             // hdrPanel
             // 
             this.hdrPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("hdrPanel.BackgroundImage")));
-            this.hdrPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.hdrPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.hdrPanel.Controls.Add(this.tileLbl);
             this.hdrPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.hdrPanel.Location = new System.Drawing.Point(0, 0);
             this.hdrPanel.Name = "hdrPanel";
-            this.hdrPanel.Size = new System.Drawing.Size(860, 70);
+            this.hdrPanel.Size = new System.Drawing.Size(1394, 70);
             this.hdrPanel.TabIndex = 62;
             // 
             // tileLbl
@@ -179,7 +193,7 @@ namespace FinalProjectCP
             this.tileLbl.AutoSize = true;
             this.tileLbl.Font = new System.Drawing.Font("KestrelW00-Script", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tileLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
-            this.tileLbl.Location = new System.Drawing.Point(293, 15);
+            this.tileLbl.Location = new System.Drawing.Point(560, 15);
             this.tileLbl.Name = "tileLbl";
             this.tileLbl.Size = new System.Drawing.Size(269, 43);
             this.tileLbl.TabIndex = 0;
@@ -264,7 +278,7 @@ namespace FinalProjectCP
             this.PakbetComboAdd.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PakbetComboAdd.Location = new System.Drawing.Point(17, 422);
             this.PakbetComboAdd.Name = "PakbetComboAdd";
-            this.PakbetComboAdd.Size = new System.Drawing.Size(186, 23);
+            this.PakbetComboAdd.Size = new System.Drawing.Size(194, 23);
             this.PakbetComboAdd.TabIndex = 90;
             this.PakbetComboAdd.Text = "Add";
             this.PakbetComboAdd.UseVisualStyleBackColor = true;
@@ -275,7 +289,7 @@ namespace FinalProjectCP
             this.SinigangComboAdd.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SinigangComboAdd.Location = new System.Drawing.Point(212, 221);
             this.SinigangComboAdd.Name = "SinigangComboAdd";
-            this.SinigangComboAdd.Size = new System.Drawing.Size(186, 23);
+            this.SinigangComboAdd.Size = new System.Drawing.Size(196, 23);
             this.SinigangComboAdd.TabIndex = 89;
             this.SinigangComboAdd.Text = "Add";
             this.SinigangComboAdd.UseVisualStyleBackColor = true;
@@ -495,7 +509,7 @@ namespace FinalProjectCP
             this.PakbetAdd.Font = new System.Drawing.Font("Roboto Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PakbetAdd.Location = new System.Drawing.Point(13, 422);
             this.PakbetAdd.Name = "PakbetAdd";
-            this.PakbetAdd.Size = new System.Drawing.Size(186, 23);
+            this.PakbetAdd.Size = new System.Drawing.Size(198, 23);
             this.PakbetAdd.TabIndex = 93;
             this.PakbetAdd.Text = "Add";
             this.PakbetAdd.UseVisualStyleBackColor = true;
@@ -1162,7 +1176,6 @@ namespace FinalProjectCP
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
@@ -1175,7 +1188,6 @@ namespace FinalProjectCP
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
@@ -1188,7 +1200,6 @@ namespace FinalProjectCP
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(76)))));
@@ -1216,7 +1227,7 @@ namespace FinalProjectCP
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 70);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(860, 3);
+            this.panel6.Size = new System.Drawing.Size(1394, 3);
             this.panel6.TabIndex = 74;
             // 
             // label53
@@ -1241,14 +1252,152 @@ namespace FinalProjectCP
             this.DiscountType.Size = new System.Drawing.Size(121, 24);
             this.DiscountType.TabIndex = 76;
             // 
+            // Return
+            // 
+            this.Return.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Return.Location = new System.Drawing.Point(1259, 752);
+            this.Return.Name = "Return";
+            this.Return.Size = new System.Drawing.Size(121, 36);
+            this.Return.TabIndex = 77;
+            this.Return.Text = "<< Back <<";
+            this.Return.UseVisualStyleBackColor = true;
+            this.Return.Click += new System.EventHandler(this.Return_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(860, 209);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(41, 460);
+            this.richTextBox1.TabIndex = 78;
+            this.richTextBox1.Text = "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27";
+            // 
+            // NameTB
+            // 
+            this.NameTB.Location = new System.Drawing.Point(907, 209);
+            this.NameTB.Name = "NameTB";
+            this.NameTB.ReadOnly = true;
+            this.NameTB.Size = new System.Drawing.Size(330, 460);
+            this.NameTB.TabIndex = 79;
+            this.NameTB.Text = "";
+            // 
+            // QtyTB
+            // 
+            this.QtyTB.Location = new System.Drawing.Point(1243, 209);
+            this.QtyTB.Name = "QtyTB";
+            this.QtyTB.ReadOnly = true;
+            this.QtyTB.Size = new System.Drawing.Size(46, 460);
+            this.QtyTB.TabIndex = 80;
+            this.QtyTB.Text = "";
+            // 
+            // priceTB
+            // 
+            this.priceTB.Location = new System.Drawing.Point(1295, 208);
+            this.priceTB.Name = "priceTB";
+            this.priceTB.ReadOnly = true;
+            this.priceTB.Size = new System.Drawing.Size(85, 460);
+            this.priceTB.TabIndex = 81;
+            this.priceTB.Text = "";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(1050, 146);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(103, 19);
+            this.label54.TabIndex = 82;
+            this.label54.Text = "ORDER TRAY";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(858, 186);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(24, 19);
+            this.label55.TabIndex = 83;
+            this.label55.Text = "ID";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(903, 186);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(54, 19);
+            this.label56.TabIndex = 84;
+            this.label56.Text = "NAME";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(1239, 186);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(40, 19);
+            this.label57.TabIndex = 85;
+            this.label57.Text = "QTY";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(1291, 186);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(53, 19);
+            this.label58.TabIndex = 86;
+            this.label58.Text = "PRICE";
+            // 
+            // rmvItem
+            // 
+            this.rmvItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rmvItem.Location = new System.Drawing.Point(1032, 696);
+            this.rmvItem.Name = "rmvItem";
+            this.rmvItem.Size = new System.Drawing.Size(348, 29);
+            this.rmvItem.TabIndex = 87;
+            this.rmvItem.Text = "Remove";
+            this.rmvItem.UseVisualStyleBackColor = true;
+            this.rmvItem.Click += new System.EventHandler(this.rmvItem_Click);
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(858, 676);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(38, 19);
+            this.label59.TabIndex = 94;
+            this.label59.Text = "ID #";
+            // 
+            // IDnumber
+            // 
+            this.IDnumber.Location = new System.Drawing.Point(860, 699);
+            this.IDnumber.Name = "IDnumber";
+            this.IDnumber.Size = new System.Drawing.Size(158, 23);
+            this.IDnumber.TabIndex = 95;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(860, 807);
+            this.ClientSize = new System.Drawing.Size(1394, 807);
             this.ControlBox = false;
+            this.Controls.Add(this.IDnumber);
+            this.Controls.Add(this.label59);
+            this.Controls.Add(this.rmvItem);
+            this.Controls.Add(this.label58);
+            this.Controls.Add(this.label57);
+            this.Controls.Add(this.label56);
+            this.Controls.Add(this.label55);
+            this.Controls.Add(this.label54);
+            this.Controls.Add(this.priceTB);
+            this.Controls.Add(this.QtyTB);
+            this.Controls.Add(this.NameTB);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.Return);
             this.Controls.Add(this.DiscountType);
             this.Controls.Add(this.label53);
             this.Controls.Add(this.panel6);
@@ -1266,7 +1415,7 @@ namespace FinalProjectCP
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Comfort Kitchen";
             this.hdrPanel.ResumeLayout(false);
             this.hdrPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCombo1)).EndInit();
@@ -1303,6 +1452,7 @@ namespace FinalProjectCP
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RiceQty)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IDnumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1410,6 +1560,19 @@ namespace FinalProjectCP
         private System.Windows.Forms.Button RiceAdd;
         private System.Windows.Forms.NumericUpDown RiceQty;
         private System.Windows.Forms.ComboBox DiscountType;
+        private System.Windows.Forms.Button Return;
+        public System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox NameTB;
+        private System.Windows.Forms.RichTextBox QtyTB;
+        private System.Windows.Forms.RichTextBox priceTB;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Button rmvItem;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.NumericUpDown IDnumber;
     }
 }
 
