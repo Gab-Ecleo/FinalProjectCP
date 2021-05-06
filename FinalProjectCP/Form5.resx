@@ -117,4 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>				Comfort Kitchen
+
+============================================================
+
+As a final requirement in Programming 2, a group of students from CIIT 
+created an application that will be useful to both customers and 
+the businessowners. 
+
+============================================================
+
+A simple canteen application aims to ease traffic in a canteen set up. 
+It is also a good way to practice the new normal set up. Instead of 
+falling in line to order food, the customer can order 
+using mobile phones. 
+
+For the businessowners, this app will give them more time to prepare
+food than tending to customers with their orders one by one. 
+Less contact since the orders will be taken using the application. 
+
+============================================================
+
+We strive to create an application that is easy to use for both
+customers and businessowners. It is a simple select button program. 
+Just click and check out your order kind of application.
+
+
+---------This application can apply to any simple canteen set up.----------
+
+</value>
+  </data>
 </root>

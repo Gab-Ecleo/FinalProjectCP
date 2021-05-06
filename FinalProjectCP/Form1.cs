@@ -179,7 +179,7 @@ namespace FinalProjectCP
         private void AdoboAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Adobo\t");
+            name.Add("Adobo\t\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(AdoboQty.Value);
@@ -252,7 +252,7 @@ namespace FinalProjectCP
         private void WaterAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Water\t");
+            name.Add("Water\t\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(WaterQty.Value);
@@ -276,7 +276,7 @@ namespace FinalProjectCP
         private void CokeAdd_Click(object sender, EventArgs e)
         {
             //add name to list
-            name.Add("Coke\t");
+            name.Add("Coke\t\t");
 
             //add quantity to list
             int qty = Convert.ToInt32(CokeQty.Value);
